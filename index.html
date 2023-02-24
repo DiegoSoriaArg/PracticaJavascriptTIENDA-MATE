@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Se usara Atomic Desing  y BEM-->
     <link rel="stylesheet" href="css/base.css">
     <title>Mates del Gaucho</title>
 </head>
 <body>
+
+    <!-- Comienzo de la seccion cabecera de la web -->
     <header>
         <div class="encabezado">
             <img class="encabezado__logo" src="imagenes/logo.png" alt="Mates del gaucho - Logo">
@@ -47,6 +50,132 @@
             </div>
         </div>
     </header>
+
+    <!-- Comienzo de la seccion contenedora de los productos -->
+    <!-- NOTA: como no trabajaremos con base de datos, colocaremos los productos de forma estatica y le añadiremos un "data-id" para poder trabajar con el javascript -->
+    <section class="contenedor">
+        <div class="contenedor__productos">
+            <div class="contenedor__productos--producto">
+                <div>
+                    <img src="imagenes/producto1.png" alt="Mate camionero nacional de aluminio">
+                    <p><span>5% OFF</span></p>
+                </div>
+                <p class="contenedor__productos--producto-titulo">CAMIONERO NACIONAL DE ALUMINIO</p>
+                <p class="contenedor__productos--producto-precio">$ <span class="contenedor__productos--producto-precio-numero">2999</span></p>
+                <a href="#" class="contenedor__productos--producto-boton" data-id="1">Agregar al carrito</a>
+            </div>
+            <div class="contenedor__productos--producto">
+                <div>
+                    <img src="imagenes/producto2.png" alt="Mate imperial premium cincelado">
+                    <p><span>15% OFF</span></p>
+                </div>
+                <p class="contenedor__productos--producto-titulo">IMPERIAL PREMIUM CILCELADO</p>
+                <p class="contenedor__productos--producto-precio">$ <span
+                        class="contenedor__productos--producto-precio-numero">2999</span></p>
+                <a href="#" class="contenedor__productos--producto-boton" data-id="2">Agregar al carrito</a>
+            </div>
+            <div class="contenedor__productos--producto">
+                <div>
+                    <img src="imagenes/producto3.png" alt="Mate torpedo premium de acero">
+                    <p><span>2% OFF</span></p>
+                </div>
+                <p class="contenedor__productos--producto-titulo">TORPEDO PREMIUM DE ACERO</p>
+                <p class="contenedor__productos--producto-precio">$ <span
+                        class="contenedor__productos--producto-precio-numero">4999</span></p>
+                <a href="#" class="contenedor__productos--producto-boton" data-id="3">Agregar al carrito</a>
+            </div>
+            <div class="contenedor__productos--producto">
+                <div>
+                    <img src="imagenes/producto4.png" alt="Mate camionero premium alpaca">
+                    <p><span>SIN STOCK</span></p>
+                </div>
+                <p class="contenedor__productos--producto-titulo">CAMIONERO PREMIUM ALPACA</p>
+                <p class="contenedor__productos--producto-precio">$ <span
+                        class="contenedor__productos--producto-precio-numero">6999</span></p>
+                <a href="#" class="contenedor__productos--producto-boton" data-id="4">Agregar al carrito</a>
+            </div>
+            <div class="contenedor__productos--producto">
+                <div>
+                    <img src="imagenes/producto5.png" alt="Mate termico de acero inoxidable">
+                    <p><span>5% OFF</span></p>
+                </div>
+                <p class="contenedor__productos--producto-titulo">TERMICO DE ACERO INOXIDABLE</p>
+                <p class="contenedor__productos--producto-precio">$ <span
+                        class="contenedor__productos--producto-precio-numero">3000</span></p>
+                <a href="#" class="contenedor__productos--producto-boton" data-id="5">Agregar al carrito</a>
+            </div>
+            <div class="contenedor__productos--producto">
+                <div>
+                    <img src="imagenes/producto6.png" alt="Mate torpedo nacional de aluminio cincelado">
+                    <p><span>7% OFF</span></p>
+                </div>
+                <p class="contenedor__productos--producto-titulo">TORPEDO NACIONAL DE ALUMINIO CINCELADO</p>
+                <p class="contenedor__productos--producto-precio">$ <span
+                        class="contenedor__productos--producto-precio-numero">3500</span></p>
+                <a href="#" class="contenedor__productos--producto-boton" data-id="6">Agregar al carrito</a>
+            </div>
+            <div class="contenedor__productos--producto">
+                <div>
+                    <img src="imagenes/producto7.png" alt="Mate torpedo premium alpaca cincelado">
+                    <p><span>50% OFF</span></p>
+                </div>
+                <p class="contenedor__productos--producto-titulo">TORPEDO PREMIUM ALPACA CINCELADO</p>
+                <p class="contenedor__productos--producto-precio">$ <span
+                        class="contenedor__productos--producto-precio-numero">6999</span></p>
+                <a href="#" class="contenedor__productos--producto-boton" data-id="7">Agregar al carrito</a>
+            </div>
+            <div class="contenedor__productos--producto">
+                <div>
+                    <img src="imagenes/producto8.png" alt="Mate imperial de bronce">
+                    <p><span>25% OFF</span></p>
+                </div>
+                <p class="contenedor__productos--producto-titulo">IMPERIAL DE BRONCE</p>
+                <p class="contenedor__productos--producto-precio">$ <span
+                        class="contenedor__productos--producto-precio-numero">8200</span></p>
+                <a href="#" class="contenedor__productos--producto-boton" data-id="8">Agregar al carrito</a>
+            </div>
+            <div class="contenedor__productos--producto">
+                <div>
+                    <img src="imagenes/producto9.png" alt="Mate torpedo nacional liso">
+                    <p><span>SIN STOCK</span></p>
+                </div>
+                <p class="contenedor__productos--producto-titulo">TORPEDO NACIONAL LISO</p>
+                <p class="contenedor__productos--producto-precio">$ <span
+                        class="contenedor__productos--producto-precio-numero">2600</span></p>
+                <a href="#" class="contenedor__productos--producto-boton" data-id="9">Agregar al carrito</a>
+            </div>
+            <div class="contenedor__productos--producto">
+                <div>
+                    <img src="imagenes/producto10.png" alt="Mate camionero nacional de aluminio labrado">
+                    <p><span>2% OFF</span></p>
+                </div>
+                <p class="contenedor__productos--producto-titulo">CAMIONERO NACIONAL DE ALUMINIO LABRADO</p>
+                <p class="contenedor__productos--producto-precio">$ <span
+                        class="contenedor__productos--producto-precio-numero">3650</span></p>
+                <a href="#" class="contenedor__productos--producto-boton" data-id="10">Agregar al carrito</a>
+            </div>
+            <div class="contenedor__productos--producto">
+                <div>
+                    <img src="imagenes/producto11.png" alt="Mate campestre">
+                    <p><span>SIN STOCK</span></p>
+                </div>
+                <p class="contenedor__productos--producto-titulo">MATE CAMPESTRE</p>
+                <p class="contenedor__productos--producto-precio">$ <span
+                        class="contenedor__productos--producto-precio-numero">1950</span></p>
+                <a href="#" class="contenedor__productos--producto-boton" data-id="11">Agregar al carrito</a>
+            </div>
+            <div class="contenedor__productos--producto">
+                <div>
+                    <img src="imagenes/producto12.png" alt="Mate torpedo nacional trenzado">
+                    <p><span>10% OFF</span></p>
+                </div>
+                <p class="contenedor__productos--producto-titulo">TORPEDO NACIONAL TRENZADO</p>
+                <p class="contenedor__productos--producto-precio">$ <span
+                        class="contenedor__productos--producto-precio-numero">5250</span></p>
+                <a href="#" class="contenedor__productos--producto-boton" data-id="12">Agregar al carrito</a>
+            </div>
+        </div>
+    </section>
     
     <script src="js/main.js"></script>
 </body>
