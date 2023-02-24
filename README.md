@@ -11,4 +11,4 @@ El código será comentado para su comprensión!
 Este proyecto forma parte de la iniciativa "EquipoUno" del desarrollador Diego Soria, en donde un grupo de desarrolladores se organizaron para proponer y crear distintos proyectos, tanto simples como complejos. 
 *Este es un Proyecto Simple (PS) 
 
-Este proyecto también se utilizara para la practica con GitHub, se creara un repositorio y sus respectivas ramas. 
+Este proyecto también se utilizara para la practica con GitHub, se creara un repositorio y sus respectivas ramas.
