@@ -60,3 +60,9 @@
     border: solid .2rem #008037;
     font-weight: 600;
 }
+
+@media (max-width: 600px) {
+    .contenedor__productos {
+        gap: 1rem;
+    }
+}
