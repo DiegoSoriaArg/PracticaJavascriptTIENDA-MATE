@@ -17,3 +17,9 @@ header {
     box-shadow: 0 .1rem .7rem #000;
     z-index: 1000;
 }
+
+@media (max-width: 600px) {
+    header {
+        padding: 1rem 2rem;
+    }
+}
