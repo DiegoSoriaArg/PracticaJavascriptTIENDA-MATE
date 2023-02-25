@@ -1,3 +1,9 @@
 .contenedor {
     padding: 18rem 4rem 4rem 4rem;
 }
+
+@media (max-width: 600px) {
+    .contenedor {
+        padding: 18rem 2rem 4rem 2rem;
+    }
+}
