@@ -1,0 +1,9 @@
+.productos {
+    position: absolute;
+    top: 7rem;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 .1rem .7rem #000;
+    max-height: 35rem;
+    overflow: auto;
+}
