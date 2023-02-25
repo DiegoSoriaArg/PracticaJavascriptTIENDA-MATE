@@ -19,3 +19,9 @@
     font-size: .8rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+@media (max-width: 600px) {
+    .carrito img {
+        max-height: 3.5rem;
+    }
+}
