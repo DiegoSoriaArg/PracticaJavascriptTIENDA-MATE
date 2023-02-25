@@ -7,3 +7,13 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* CSS HEADER BASE */
+header {
+    background-color: #f3f3f3;
+    padding: 0 9rem;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 .1rem .7rem #000;
+    z-index: 1000;
+}

@@ -1,0 +1,21 @@
+.carrito {
+    position: relative;
+    cursor: pointer;
+}
+
+.carrito img {
+    max-height: 4.2rem;
+}
+
+.carrito p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #008037;
+    padding: .2rem .5rem;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 600;
+    font-size: .8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,25 @@
+.productos__encabezado {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.productos__encabezado h3 {
+    font-size: 1.3rem;
+}
+
+.productos__encabezado button {
+    padding: .7rem;
+    background-color: #db0606;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.productos__encabezado button:hover {
+    background-color: #fff;
+    color: #db0606;
+    border: solid 2px #db0606;
+    font-weight: 600;
+}
