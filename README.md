@@ -12,5 +12,3 @@ Este proyecto forma parte de la iniciativa "EquipoUno" del desarrollador Diego S
 *Este es un Proyecto Simple (PS) 
 
 Este proyecto también se utilizara para la practica con GitHub, se creara un repositorio y sus respectivas ramas.
-
-https://www.youtube.com/watch?v=Ms7Y_wqn3Ww&t=1273s
