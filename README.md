@@ -12,3 +12,5 @@ Este proyecto forma parte de la iniciativa "EquipoUno" del desarrollador Diego S
 *Este es un Proyecto Simple (PS) 
 
 Este proyecto también se utilizara para la practica con GitHub, se creara un repositorio y sus respectivas ramas.
+
+Puedes observar la practica de Mates del Gaucho en el siguiente link: [Clic Aqui!](https://matesdelgaucho.netlify.app/)
